@@ -1,0 +1,94 @@
+.drag-drop-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 83px;
+  
+.file-drop {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  width:694px;
+  height: 444px;
+  .drag-drop-tag {
+    img{
+      margin-top: 20px;
+    }
+    .header-title {
+      margin-top: 20px;
+    }
+    .file-upload-terms{
+      text-align: center;
+      margin: 20px 0px;
+        p{
+          display: inline-block;
+        }
+        .muda-texto{
+            font-family: Kantumruy;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: red;
+        }
+        .file-types {
+          font-family: Kantumruy;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: black;
+        }
+        .file-size{
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: black;
+        }
+      
+    }  
+  }
+  .button-1{
+    margin-top: 30px;
+  }
+
+  .btn-up {
+    padding: 8px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #6A9AB4;
+  color: #FFFFFF;
+  border: 1px solid #008CBA;
+  }
+  .custom-fileupload {
+    margin-top: 5%;
+  }
+}
+}
+
+@media screen and (max-width: 430px) {
+  .drag-drop-container {
+    padding: 0px 16px;
+    .file-drop .drag-drop-tag img {
+      margin-top: 0px;
+  }
+  .header-title {
+    margin-top: 10px;
+  }
+  .custom-fileupload {
+    margin-top: 2%;
+  }
+  }
+}
+

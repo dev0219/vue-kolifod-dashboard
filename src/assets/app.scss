@@ -1,0 +1,299 @@
+@import url(reset.scss);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  font-family: "Poppins";
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.container-home {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  gap: 40px;
+}
+.header-title {
+  font-family: Roboto Slab;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+  .sub-title{
+    font-size: 22px;
+    text-align: start;
+  }
+}
+
+.login-home {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: calc(100vh - 157px);
+  gap: 40px;
+  div:first-of-type {
+    max-width: 300px;
+    width: 300px;
+  }
+  .input-text-component {
+    margin-top: 20px;
+    input {
+      margin-top: 7px;
+    }
+  }
+
+  .button-2 {
+    margin-top: 27px;
+  }
+  .forgot-password {
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: end;
+    margin-top: 10px;
+    color: #6A9AB4;
+  }
+}
+
+.input-text-component {
+  label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+  }
+  input {
+    width: 100%;
+    height: 35px;
+    border-radius: 1px;
+    border: 1px solid black;
+  }
+}
+
+.hr-line-container {
+  margin: 20px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  hr {
+    width: 75px;
+    border: 1px solid black
+  }
+  div {
+    font-family: Roboto Slab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #808080;
+    max-width: 150px;
+  }
+}
+
+.contact-to-email {
+  text-align: center;
+  margin-top: 20px;
+  span {
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6A9AB4;
+  }
+  p {
+
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #808080;
+  }
+}
+.account-home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: calc(100vh - 157px);
+  gap: 40px;
+}
+.account-card-container {
+  box-shadow: 0px 0px 10px 0px #0000000D;
+
+  margin-bottom: 20px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 4%;
+  .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .card-side {
+      min-width: 350px;
+      padding-left: 15%;
+    }
+    .card-header-title {
+      font-family: Roboto Slab;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+    }
+    .card-menu-title {
+      font-family: Kantumruy;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.2em;
+      text-align: left;
+      color: #6A9AB4;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+  }
+}
+
+.contact-page {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: calc(100vh - 157px);
+    gap: 40px;
+}
+
+.contact-container {
+  max-width: 700px;
+  width: 700px;
+  padding: 10% 20%;
+  .dropdown-container{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .header-title {
+    font-weight: 900;
+    .sub-title{
+      font-weight: 600;
+      font-size: 20px;
+      text-align: start;
+    }
+  }
+  .contact-description {
+    font-family: Kantumruy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #404040;
+    margin: 10px 0px 40px 0px;
+  }
+  .header-title {
+    text-align: start;
+  }
+  textarea {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .input-text-component {
+    margin-top: 20px;
+  }
+  button {
+    margin-top: 20px;
+  }
+  .custom-dropdown {
+    width: 100%;
+    height: 40px;
+    background: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    span {
+      box-shadow: none;
+      font-family: Kantumruy;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+    }
+}
+}
+.p-dropdown-items-wrapper {
+  ul {
+    padding: 10px;
+    li {
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-family: Kantumruy;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0em;
+      text-align: left;
+      color: black;
+    }
+  }
+}
+
+.dropdown-container {
+  label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .contact-container {
+    width: 100%;
+  }
+}
+
+.p-dialog-header {
+  div {
+    padding: 15px 20px;
+  }
+}
